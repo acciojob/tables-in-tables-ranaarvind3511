@@ -1,2 +1,19 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
 
-/* Your CSS Code here. */
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: lightgray;
+}
+
+.black-cell {
+    background-color: black;
+    color: white;
+}
